@@ -69,7 +69,6 @@ body {
 
 .video-about {
     padding-left: 101px;
-    outline: none;
 }
 
 .dignity {
@@ -346,27 +345,16 @@ body {
     text-decoration: none;
 }
 
-.button-title:hover {
-    background-color: #DCDCDC;  
-}
-
-.button-title:active {
-    background-color: #A9A9A9;
-}
-
-
-
 .contacts {
     background-color: #445162;
     position: relative;
-    padding: 53px 50px 49px 50px;
 }
 
 .contacts-title {
     display: block;
     width: 100%;
     text-align: center;
-    padding: 0 0 31px 0;
+    padding: 53px 0 31px 0;
     color: #ffffff;
     font-family: "Arial";
     font-size: 30px;
@@ -376,6 +364,7 @@ body {
 
 form {
     padding-left: 249px;
+    padding-bottom: 49px;
     float: left;
 }
 
@@ -387,7 +376,6 @@ input {
     margin-bottom: 21px;
     border-radius: 5px;
     padding-left: 5px;
-    outline: none;
 }
 
 input::placeholder,
@@ -405,7 +393,6 @@ textarea {
     background-color: #ffffff;
     border-radius: 5px;
     margin-bottom: 21px;
-    outline: none;
 }
 
 input[type="submit"] {
@@ -418,20 +405,11 @@ input[type="submit"] {
     line-height: 24px;
     text-transform: uppercase;
     margin-left: 180px;
-    outline: none;
-}
-
-input[type="submit"]:hover {
-    background-color: #DCDCDC;   
-}
-
-input[type="submit"]:active {
-    background-color: #A9A9A9;   
 }
 
 .info {
     float: right;
-    margin-right: 195px;
+    margin-right: 291px;
 }
 
 .skype,
@@ -503,7 +481,7 @@ input[type="submit"]:active {
     float: right;
     position: absolute;
     top: 326px;
-    right: 402px
+    right: 452px
 }
 
 .facebook {
@@ -515,7 +493,7 @@ input[type="submit"]:active {
     float: right;
     position: absolute;
     top: 326px;
-    right: 350px;
+    right: 400px;
 }
 
 .linkedIn {
@@ -527,7 +505,7 @@ input[type="submit"]:active {
     float: right;
     position: absolute;
     top: 326px;
-    right: 298px;
+    right: 348px;
 }
 
 .google {
@@ -539,7 +517,7 @@ input[type="submit"]:active {
     float: right;
     position: absolute;
     top: 326px;
-    right: 246px;
+    right: 296px;
 }
 
 .youtube {
@@ -551,7 +529,7 @@ input[type="submit"]:active {
     float: right;
     position: absolute;
     top: 326px;
-    right: 194px;
+    right: 244px;
 }
 
 .copy {
@@ -562,4 +540,3 @@ input[type="submit"]:active {
     text-align: center;
     padding: 5px 0 5px 0;
 }
-
